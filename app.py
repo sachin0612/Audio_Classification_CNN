@@ -41,6 +41,9 @@ st.write("This app only classify 10 objects sounds which are: dog_bark , childre
 st.sidebar.markdown("# Concept Resource")
 st.sidebar.markdown("[Read about Sound Classification using deep Learning](https://towardsdatascience.com/audio-deep-learning-made-simple-part-1-state-of-the-art-techniques-da1d3dff2504)")
 
+st.sidebar.markdown("# GitHub Link")
+st.sidebar.markdown("[Click here !](https://github.com/sachin0612/Audio_Classification_CNN)")
+
 uploaded_file = st.file_uploader("Choose an audio file", type=["wav", "mp3"])
 
 if uploaded_file is not None:
