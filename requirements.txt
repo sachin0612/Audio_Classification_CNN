@@ -2,3 +2,4 @@ tensorflow
 pandas
 numpy
 librosa
+opencv-python
